@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<style>
+			div{width: 200px; height: 100px; text-align: center; background-color: orange; border: 1px solid black; margin: 10px auto; padding: 50px}
+			div input {margin-top: 5px}
+		</style>
+		<script src = 'ajax.js'></script>
+		<script src = 'tool.js'></script>
+		<script>
+			window.onload = function(){
+				var oLogin = document.getElementById('login');
+				var oRegister = document.getElementById("register");
+				var aAs = document.getElementsByTagName("a");
+ 
+				//立即注册
+				aAs[0].onclick = function(ev){
+					var e = ev || window.event;
+					preDef(e);
+
+					$("#loginMsg").style.display = 'none';
+					$("#registerMsg").style.display = 'block';
+				}
+				//立即登陆
+				aAs[1].onclick = function(ev){
+					var e = ev || window.event;
+					preDef(e);
+
+					$("#loginMsg").style.display = 'block';
+					$("#registerMsg").style.display = 'none';
+				}
+				//登陆
+				oLogin.onclick = function(){
+					var str = `username=${$('name=username')[0].value}&password=${$('name=password')[0].value}`;
+					alert(str);
+
+					ajax({
+						method:'post',
+						url:'test.php?type=login',
+						data: str,
+						success: function(data){
+							alert('登陆成功');
+						},
+						error: function(msg){
+							alert(msg);
+						}
+					})
+
+				}
+				//注册
+				oRegister.onclick = function(){
+					var str = `username=${$("name=username")[1].value}&password=${$("name=password")[1].value}&repassword=${$("name=repassword")[0].value}`;
+					
+					ajax({
+						method: "post",
+						url: "test.php?type=register",
+						data: str,
+						success: function(data){
+							alert(data);
+						},
+						error: function(msg){
+							alert(msg);
+						}
+					})
+				}
+
+
+			}
+
+		</script>
+	</head>
+	<body>
+		<div id = 'loginMsg'>
+			<input type="text" name = 'username' placeholder="请输入用户名"><br/>
+			<input type="password" name = 'password' placeholder="请输入密码"><br/>
+			<button id = 'login'>登陆</button>
+			<a href="#">立即注册</a>
+		</div>
+		<div id = 'registerMsg' style = 'display: none'>
+			<input type="text" name = 'username' placeholder="请输入用户名"><br/>
+			<input type="password" name = 'password' placeholder="请输入密码"><br/>
+			<input type="password" name = 'repassword' placeholder="再次输入密码"><br/>
+			<button id = 'register'>注册</button>
+			<a href="#">立即登陆</a>
+		</div>	</body>
+</html>

@@ -7,26 +7,44 @@
 	<link rel="stylesheet" href="./iconfont/iconfont.css">
 	<script src = 'js/require.js' async="true" defer data-main = 'js/main'></script>
 	<script>
-		// window.onload = function(){
-		// 	require(['index'],function(index){
-		// 		index.main();
-		// 	})
-		// }
+		 /*window.onload = function(){
+		 	require(['index'],function(index){
+				index.main();
+			})
+		}*/
 	</script>
 </head>
 <body>
 	<!-- 头部 -->
 	<div class = "hidden1">
 		<header >
-			<ul class = "h1" class = "iconfont">
-				<li><span><a href="">登录</a></span><span class = "s1">|</span><span><a href="">注册</a></span></li>
-				<li><a href="">个人中心</a><a href=""><img src="images/leftSide/top.jpg" alt=""></a></li>
-				<li><a href="">合作渠道</a><a href=""><img src="images/leftSide/top.jpg" alt=""></a></li>
-				<li><a href="">帮助中心</a><a href=""><img src="images/leftSide/top.jpg" alt=""></a></li>
-				<li><a href="">手机版</a><a href=""><img src="images/leftSide/top.jpg" alt=""></a></li>
-				
+			<ul class = "h1">
+				<li><a href="login.html">登录</a><span class = "s1">|</span><a href="register.html">注册</a></li>
+				<li><a href="">个人中心<img src="images/leftSide/top.jpg" alt=""></a></li>
+				<li class = "li1"><a href="">合作渠道<img src="images/leftSide/top.jpg" alt=""></a></li>
+				<li class = 'li2'><a href="">帮助中心<img src="images/leftSide/top.jpg" alt=""></a></li>
+				<li class = 'li3'><a href="">手机版<img src="images/leftSide/top.jpg" alt=""></a></li>	
 			</ul>
 		</header>
+		<ol class = "h2"  >
+			<li><a href="">合作渠道</a></li>
+			<li><a href="">电视官网</a></li>
+		</ol>
+		<ol class = "h3">
+			<li><a href="">帮助中心</a></li>
+			<li><a href="">配送安装</a></li>
+			<li><a href="">售后服务</a></li>
+			<li><a href="">运费标准</a></li>
+			<li><a href="">联系客服</a></li>
+		</ol>
+		<ol class= "h4">
+			<li><a href="">手机版</a></li>
+			<li><a href=""><img src="images/top/w-1.jpg" alt="">
+			<span>扫码下载app</span></a>
+			<a href=""><img src="images/top/w-2.jpg" alt="">
+			<span>扫码访问微商城</span>
+			</a></li>
+		</ol>
 	</div>
 	<!-- 脖子 -->
 	<div class = "hidden2">
@@ -51,20 +69,35 @@
 	<!-- 身体-轮播图 -->
 	<div class = "hidden3">
 		<aside>
+			<section>
+				<ol class = "h3-LB-play">
+			    	<li class="active">1</li>
+			        <li>2</li>
+			        <li>3</li>
+	   			</ol>
+	   			<div class = "h3-LB-l"><</div>
+				<div class = "h3-LB-r">></div>
+				<ul class = "h3-LB">
+					<!-- <li><img src="./images/LunBo/LB-1.jpg" alt=""></li>
+					<li><img src="./images/LunBo/LB-2.jpg" alt=""></li>
+					<li><img src="./images/LunBo/LB-3.jpg" alt=""></li> 
+					<li><img scr="./images/LunBo/LB-1.jpg" alt=""></li>  -->
+				</ul>
+			</section> 
 			<ul class = "h3-ul">
-				<li><a href=""><p><i style = 'margin-right:100px ;font-size:13px;font-weight:600'>爆款推荐</i><span>></span></p></a></li>
+				<!-- <li><a href=""><p><i style = 'margin-right:100px ;font-size:13px;font-weight:600'>爆款推荐</i><span>></span></p></a></li>
 				<li><a href=""><p><i style = 'margin-right:100px ;font-size:13px;font-weight:600'>电视系列</i><span>></span></p></a></li>
 				<li><a href=""><p><i style = 'margin-right:100px ;font-size:13px;font-weight:600'>电视类型</i><span>></span></p></a></li>
 				<li><a href=""><p><i style = 'margin-right:100px ;font-size:13px;font-weight:600'>屏幕尺寸</i><span>></span></p></a></li>
 				<li><a href=""><p><i style = 'margin-right:100px ;font-size:13px;font-weight:600'>智能硬件</i><span>></span></p></a></li>
-				<li><a href=""><p class = "h3-p"><i style = 'margin-right:100px ;font-size:13px;font-weight:600'>精品配件</i><span>></span></p></a></li>
+				<li><a href=""><p class = "h3-p"><i style = 'margin-right:100px ;font-size:13px;font-weight:600'>精品配件</i><span>></span></p></a></li> -->
 			</ul>
 			<!-- 商品详情 -->
 			<!-- 第一个div -->
-			<div  class = "h3-div-1">
+			<div  class = "h3-div">
 
 				<ul class = "h3-div-ul1">
-					<li><a href=""><img src="./images/leftSide/x40L.jpg" alt=""><span>X40L</span></a></li>
+					<!-- <li><a href=""><img src="./images/leftSide/x40L.jpg" alt=""><span>X40L</span></a></li>
 					<li><a href=""><img src="./images/leftSide/x65L.jpg" alt=""><span>X65L</span></a></li>
 					<li><a href=""><img src="./images/leftSide/3.jpg" alt=""><span>超4Max55</span></a></li>
 					<li><a href=""><img src="./images/leftSide/4.jpg" alt=""><span>X43L</span></a></li>
@@ -74,36 +107,35 @@
 					<li><a href=""><img src="./images/leftSide/8.jpg" alt=""><span>X50pro</span></a></li>
 					<li><a href=""><img src="./images/leftSide/9.jpg" alt=""><span>超4MX70</span></a></li>
 					<li><a href=""><img src="./images/leftSide/10.jpg" alt=""><span>X55L</span></a></li>
-					<li><a href=""><img src="./images/leftSide/10.jpg" alt=""><span>X65s</span></a></li>
-					<li><a href=""><img src="./images/leftSide/10.jpg" alt=""><span>超4MX75</span></a></li>
-					
-				</ul> 
-				<div class = "h3-div-ul1-r">
-					<a href=""><img src="./images/leftSide/l-r.jpg" alt=""></a>
-				</div>
+					<li><a href=""><img src="./images/leftSide/11.jpg" alt=""><span>X65s</span></a></li>
+					<li><a href=""><img src="./images/leftSide/12.jpg" alt=""><span>超4MX75</span></a></li> -->
+				</ul>  
+				<div class = "h3-div-ul-r">
+					<a href=""><img src="./images/leftSide/l-r.jpg" alt=""></a> 
+				</div> 
 			</div>
 			<!-- 第二个div -->
-			<div  class = "h3-div-2">
-				<div class = "h3-div-ol2">
-					<p><i><a href="">.Max系列</a></i>
-					<span>分体，正在流行的未来</span></p>
-					<p><i><a href="">.Unique系列</a></i>
-					<span>生来独孤求败</span></p>
-					<p><i><a href="">.uMax系列</a></i>
-					<span>只为人生赢家</span></p>
-					<p><i><a href="">.X系列</a></i>
-					<span>体价比主宰者</span></p>
-					<p><i><a href="">.生态定制系列</a></i>
-					<span>共享大屏生态系列</span></p>
-				</div>
-				<div class = "h3-div-ol2-r">
+			<div  class = "h3-div">
+				<ul class = "h3-div-ul2">
+					<!-- <li><i><a href="">.Max系列</a></i>
+					<span>分体，正在流行的未来</span></li>
+					<li><i><a href="">.Unique系列</a></i>
+					<span>生来独孤求败</span></li>
+					<li><i><a href="">.uMax系列</a></i>
+					<span>只为人生赢家</span></li>
+					<li><i><a href="">.X系列</a></i>
+					<span>体价比主宰者</span></li>
+					<li><i><a href="">.生态定制系列</a></i>
+					<span>共享大屏生态系列</span></li> -->
+				</ul>
+				<div class = "h3-div-ul-r">
 					 <a href=""><img src="./images/leftSide/l-r.jpg" alt=""></a>
 				</div>
 			</div>
 			<!-- 第三个div -->
-			<div  class = "h3-div-3">
+			<div  class = " h3-div">
 				<ul class = "h3-div-ul3">
-					<li><a href="">.分体电视</a></li>
+					<!-- <li><a href="">.分体电视</a></li>
 					<li><a href="">.全面屏电视</a></li>
 					<li><a href="">.曲面电视</a></li>
 					<li><a href="">.超薄电视（<10cm）</a></li>
@@ -111,16 +143,16 @@
 					<li><a href="">.高色域（>85%）</a></li>
 					<li><a href="">.Dolby Vision HDR</a></li>
 					<li><a href="">.4K超清电视</a></li>
-					<li><a href="">.3D电视</a></li>
+					<li><a href="">.3D电视</a></li> -->
 				</ul>
-				<div class = "h3-div-ul3-r">
-					 <a href=""><img src="./images/leftSide/l-r.jpg" alt=""></a>
+				<div class = "h3-div-ul-r">
+					 <a href=""><img src="./images/leftSide/l-r.jpg" alt=""></a> 
 				</div>
 			</div>
 			<!-- 第四个div -->
-			<div  class = "h3-div-4">
+			<div  class = " h3-div">
 				<ul class = "h3-div-ul4">
-					<li><a href="">.120时</a></li>
+					<!-- <li><a href="">.120时</a></li>
 					<li><a href="">.85时</a></li>
 					<li><a href="">.75时</a></li>
 					<li><a href="">.70时</a></li>
@@ -128,62 +160,189 @@
 					<li><a href="">.55时</a></li>
 					<li><a href="">.50时</a></li>
 					<li><a href="">.43时</a></li>
-					<li><a href="">.40时</a></li>
+					<li><a href="">.40时</a></li> -->
 				</ul>
-				<div class = "h3-div-ul4-r">
+				<div class = "h3-div-ul-r">
 					 <a href=""><img src="./images/leftSide/l-r.jpg" alt=""></a>
 				</div>
 			</div>
 			<!-- 第五个div -->
-			<div  class = "h3-div-5">
+			<div  class = " h3-div">
 				<ul class = "h3-div-ul5">
 					<li><a href=""><img src="./images/leftSide/13.jpg" alt=""><span>乐视盒子U4</span></a></li>
 					<li><a href=""><img src="./images/leftSide/14.jpg" alt=""><span><i>屏霸</i><i>智能家庭中心</i></span>
 					</a></li>
 				</ul>
-				<div class = "h3-div-ul5-r">
-					 <a href=""><img src="./images/leftSide/l-r.jpg" alt=""></a>
-				</div>
+				
 			</div>
 			<!-- 第六个div -->
-			<div  class = "h3-div-6">
+			<div  class = " h3-div">
 				<ul class = "h3-div-ul6">
 					<li><a href=""><img src="./images/leftSide/15.jpg" alt=""><span>电视挂架/底座</span></a></li>
 					<li><a href=""><img src="./images/leftSide/16.jpg" alt=""><span>游戏娱乐</span></a></li>
-					<li><a href=""><img src="./images/leftSide/17.jpg" alt=""><span>更多</span></a></li>
+					<li><a href=""><img src="./images/leftSide/16.jpg" alt=""><span>更多</span></a></li>
 				</ul>
 			</div>
 			
 		</aside>
 	</div>
-	<!--身体-s商城公告  -->
+	<!--身体-商城公告  -->
 	<div class = "hidden4">
 		<article>
-			
+			<div class = "h4-div">
+				<p><span>商城公告</span><i>MORE></i></p>
+				<ul class = "h4-div-ul1">
+					<li><a href="">【公告】 乐视商城精品公告</a></li>
+					<li><a href="">【公告】 防诈骗声明</a></li>
+				</ul>
+			</div>
+			<ul class= "h4-ul2">
+				<!-- <li><img src="./images/adver/ad-1.jpg" alt=""></li>
+				<li><img src="./images/adver/ad-2.jpg" alt=""></li>
+				<li><img src="./images/adver/ad-3.jpg" alt=""></li>
+				<li><img src="./images/adver/ad-4.jpg" alt=""></li>  -->
+			</ul>
 		</article>
 	</div>
 	<!-- 身体-智能大屏-标题 -->
 	<div class = "hidden5">
 		<div class = "screen-title">
-			
+			<p><img src="./images/adver/tv.jpg" alt="">智能大屏</p>	
+			<ul class = "h5-ul">
+				<li><a href="">40时</a></li>
+				<li><a href="">50时</a></li>
+				<li><a href="">55时</a></li>
+				<li><a href="">65时</a></li>
+			</ul>			
 		</div>
 	</div>
 	<!-- 身体-智能大屏 -->
 	<div class = "hidden6">
 		<div class = "screen">
-			
+			<ul>
+				<!-- <li class = "s-li1"><a href=""><img src="./images/screen/s-1.jpg" alt=""></a></li> -->
+				<!-- <li>
+					<a href="">
+						<img class = "s-img" src="./images/screen/s-2.jpg" alt=""> 
+						
+						<img class = "s-img1" src="./images/screen/di.jpg" alt="">
+						<div>
+							<span> X65L </span>
+							<h1>4k HDR超清精彩 | 16GB高速闪存</h1>
+							<i> ￥4099 </i>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="">
+					<img class = "s-img" src="./images/screen/s-3.jpg" alt="">
+				
+					<img class = "s-img1" src="./images/screen/di.jpg" alt="">
+					<div>
+						<span> X43L </span>
+						<h1>4k HDR超清精彩 | 16GB高速闪存</h1>
+						<i> ￥1899 </i>
+					</div>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img class = "s-img" src="./images/screen/s-4.jpg" alt="">
+					
+						<img class = "s-img1" src="./images/screen/di.jpg" alt="">
+						<div>
+							<span> X40L </span>
+							<h1>4k HDR超清精彩 | 16GB高速闪存</h1>
+							<i> ￥1699起 </i>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img class = "s-img" src="./images/screen/s-5.jpg" alt="">
+						
+						<img class = "s-img1" src="./images/screen/di.jpg" alt="">
+						<div>
+							<span> X50 Pro </span>
+							<h1>4k HDR超清精彩 | 16GB高速闪存</h1>
+							<i> ￥2599 </i>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img class = "s-img" src="./images/screen/s-6.jpg" alt="">
+					
+						<img class = "s-img1" src="./images/screen/di.jpg" alt="">
+						<div>
+							<span> X55L </span>
+							<h1>4k HDR超清精彩 | 16GB高速闪存</h1>
+							<i> ￥2799 </i>
+						</div>
+					</a>
+				</li> -->
+			</ul>
 		</div>
 	</div>
 	<!-- 身体-精品配件-标题 -->
 	<div class = "hidden7">
 		<div class = "parts-title">
-			
+			<p>
+				<img src="./images/adver/tv1.jpg" alt="">精品配件
+			</p>
+			<ul class = "h7-ul">
+				<li><a href="">底座</a></li>
+				<li><a href="">挂架</a></li>
+				<li><a href="">游戏娱乐</a></li>
+			</ul>
 		</div>
 	</div>
 	<!--身体-精品配件  -->
 	<div class = "hidden8">
 		<div class = "parts">
-			
+			<ul class = "h8-ul1">
+				<!-- <li>
+					<img src="./images/parts/ul1-1.jpg" alt="">
+					<h2>乐视三合一体摄像头</h2>
+					<span>来自未来科技的体感摄像头</span>
+					<i>￥599</i>
+				</li>
+				<li>
+					<img src="./images/parts/ul1-2.jpg" alt="">
+					<h2>乐视体感手枪</h2>
+					<span>来自未来科技的体感摄像头</span>
+					<i>￥299</i>
+				</li>
+				<li>
+					<img src="./images/parts/ul1-3.jpg" alt="">
+					<h2>乐视路由器</h2>
+					<span>来自未来科技的体感摄像头</span>
+					<i>￥119</i>
+				</li> -->
+			</ul>
+			<ul class = "h8-ul2">
+				<!-- <li>
+					<img src="./images/parts/ul2-1.jpg" alt="">
+					<p>
+						<span>超四 X70云底座</span>
+						<i>￥369</i>
+					</p>
+				</li>
+				<li>
+					<img src="./images/parts/ul2-2.jpg" alt="">
+					<p>
+						<span>固定式壁挂LS065NN3</span>
+						<i>￥99</i>
+					</p>
+				</li>
+				<li>
+					<img src="./images/parts/ul2-3.jpg" alt="">
+					<p>
+						<span>旋转壁挂支架LS050NN2p</span>
+						<i>￥89</i>
+					</p>
+				</li> -->
+			</ul>
 		</div>
 	</div>
 	<!-- 脚踝 -->
@@ -200,7 +359,43 @@
 	<!-- 底部 -->
 	<div class = "hidden10">
 		<div class = "bottom">
-			
+			<div>
+				<ul>
+					<Li><a href="">选购及了解</a></Li>
+					<Li><a href="">超级电视</a></Li>
+					<Li><a href="">屏霸</a></Li>
+					<Li><a href="">乐视盒子</a></Li>
+				</ul>
+				<ul>
+					<li><a href="">会员相关</a></li>
+					<li><a href="">超级影视会员</a></li>
+				</ul>
+				<ul>
+					<li><a href="">帮助中心</a></li>
+					<li><a href="">新手入门</a></li>
+					<li><a href="">物流服务</a></li>
+					<li><a href="">售后政策</a></li>
+					<li><a href="">安装包修</a></li>
+				</ul>
+				<ul>
+					<li><a href="">服务支持</a></li>
+					<li><a href="">自助服务</a></li>
+					<li><a href="">乐码通道</a></li>
+				</ul>
+				<ul>
+					<li><a href="">关于乐视商城</a></li>
+					<li><a href="">公司接介绍</a></li>
+					<li><a href="">联系我们</a></li>
+					<li><a href="">加入我们</a></li>
+					<li><a href="">关注我们</a></li>
+				</ul>
+				<p class = "p1">
+					<span>在线客服:8:00-21:00</span>
+					<i>1010-9000 8:00-12:00</i>
+				</p>
+			</div>
+			<p class = "p1">Copyright@2004-2017乐视商城 All right reserved
+			.津ICP备18006556号-2 网络文化经营许可证文网文[2009]221号</p>
 		</div>
 	</div>
 </body>

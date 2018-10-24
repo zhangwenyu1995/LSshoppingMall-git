@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>注册页面</title>
+	<link rel="stylesheet" href="css/register.min.css">
+	<script src = 'js/require.js' async="true" defer data-main = 'js/main_register'></script>
+</head>
+<body>
+	<!-- 头部 -->
+	<div class = "hidden1">
+		<header>
+			<!-- <img src="../images/register/title.png" alt=""> -->
+			<ul>
+				<li>
+					语言：<a href="">简体中文</a>
+				</li>
+				<li>
+					国家地区：<a href="">中国</a>
+				</li>
+				<li>
+					帮助
+				</li>
+			</ul>
+		</header>
+	</div>
+	<!-- 身体 -->
+	<div class = "hidden2">
+		<section>
+			<div>
+				<ul>
+					<li>注册</li>
+					<li><a href="login.html">立即登录</a></li>
+				</ul>
+				<span id = "aSpans"></span>
+				<p>
+					<img src="images/register/1.jpg" alt="">
+					<input id = "username" name = "username"  type="text" placeholder = '手机号'>
+				</p>
+				<p>
+					<img src="images/register/2.jpg" alt="">
+					<input id = "password" name = 'password' type="password" placeholder = '密码'>
+				</p>
+				<p>
+					<img src="images/register/3.jpg" alt="">
+					<input id = "random_num" type="text" class = "h2-input" placeholder = '输入验证码，点击图片更换'>
+					<em id = "random">12345</em>
+				</p>
+				<span class = "span1">
+					<img src="images/register/4.jpg" alt="">
+					<input type="text" placeholder = '6位验证码'>
+				</span>
+				<input class = "span2" type="submit" value = '获取验证码'>
+				<i>
+					<input name="Fruit" type="checkbox" value="" />
+					我已阅读并同意<a href="">乐视用户协议</a>
+				</i>
+				<input id = 'register' class= 'login' type="submit" value ='注册'>
+			</div>
+		</section>
+	</div>
+</body>
+</html>

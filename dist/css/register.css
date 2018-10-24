@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+ul, li, ol {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+i {
+  font-style: normal; }
+
+.hidden1 {
+  width: 100%;
+  height: 90px;
+  background: white; }
+
+.hidden1 header {
+  width: 1205px;
+  height: 90px;
+  margin: 0 auto; }
+
+.hidden1 header > img {
+  width: 179px;
+  height: 42px;
+  float: left;
+  margin-top: 34px; }
+
+.hidden1 header > ul {
+  width: 315px;
+  height: 23px;
+  float: right;
+  margin-top: 60px; }
+
+.hidden1 header > ul > li {
+  border-right: 1px solid #a4a4a4;
+  float: left;
+  padding: 0 13px;
+  font-size: 14px;
+  color: #a4a4a4;
+  height: 14px; }
+
+.hidden1 header > ul > li:nth-child(3) {
+  border-right: none; }
+
+.hidden1 header > ul > li:nth-child(3):hover {
+  cursor: pointer;
+  color: lightblue; }
+
+.hidden1 header > ul > li > a {
+  border-bottom: 1px solid #a4a4a4;
+  color: #a4a4a4; }
+
+.hidden1 header > ul > li > a:hover {
+  color: lightblue;
+  border-bottom: 1px solid lightblue; }
+
+.hidden2 {
+  width: 100%;
+  height: 485px;
+  background: url("../images/register/bj.jpg") repeat; }
+
+.hidden2 section {
+  width: 1220px;
+  height: 485px;
+  margin: 0 auto; }
+
+.hidden2 section > div {
+  width: 380px;
+  height: 442px;
+  background: white;
+  float: right;
+  margin-top: 14px;
+  padding: 0 25px; }
+
+.hidden2 section > div > ul {
+  width: 380px;
+  height: 29px;
+  line-height: 29px;
+  margin-top: 20px; }
+
+.hidden2 section > div > #aSpans {
+  width: 380px;
+  height: 32px;
+  display: block;
+  font-size: 12px;
+  color: red; }
+
+.hidden2 section > div > ul > li:nth-child(1) {
+  float: left;
+  font-size: 22px; }
+
+.hidden2 section > div > ul > li:nth-child(2) {
+  float: right; }
+
+.hidden2 section > div > ul > li:nth-child(2) > a {
+  font-size: 15px;
+  color: #23a9e8; }
+
+.hidden2 section > div > p {
+  width: 378px;
+  height: 45px;
+  background: gold;
+  margin-bottom: 15px;
+  border: 1px solid #9d9d9d;
+  float: left; }
+
+.hidden2 section > div > p > input {
+  width: 335px;
+  height: 45px;
+  outline: none;
+  border: none;
+  float: right; }
+
+.hidden2 section > div > p > .h2-input {
+  width: 227px;
+  height: 45px;
+  float: left; }
+
+.hidden2 section > div > p > img {
+  width: 43px;
+  height: 45px;
+  float: left; }
+
+.hidden2 section > div > .span1 {
+  display: block;
+  height: 45px;
+  width: 220px;
+  background: gold;
+  float: left;
+  margin-right: 10px;
+  border: 1px solid #9d9d9d; }
+
+.hidden2 section > div > .span1 > input {
+  width: 177px;
+  height: 45px;
+  outline: none;
+  border: none;
+  float: left; }
+
+.hidden2 section > div > span > img {
+  width: 43px;
+  height: 45px;
+  float: left; }
+
+.hidden2 section > div > .span2 {
+  display: block;
+  height: 45px;
+  width: 145px;
+  color: #18b3e3;
+  float: left;
+  outline: none;
+  border: none;
+  border: 1px solid #18b3e3;
+  background: white;
+  font-size: 13px; }
+
+.hidden2 section > div > i {
+  width: 190px;
+  height: 18px;
+  display: block;
+  float: left;
+  margin-top: 15px;
+  font-size: 11px;
+  line-height: 18px;
+  margin-bottom: 12px; }
+
+.hidden2 section > div > input {
+  width: 380px;
+  height: 43px;
+  background: #009de6;
+  color: white;
+  font-size: 17px;
+  outline: none;
+  border: none;
+  float: left; }
+
+.hidden2 section > div > input:hover {
+  opacity: 0.8; }
+
+.hidden2 section > div > p > #random {
+  width: 108px;
+  height: 45px;
+  float: left;
+  background: lightblue;
+  line-height: 45px;
+  text-align: center; }

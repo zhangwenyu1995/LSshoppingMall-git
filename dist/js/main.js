@@ -4,10 +4,12 @@ console.log("加载完成index");
 */
 require.config({
 	paths: {
+		"jquery-cookie": "jquery.cookie",
 		"require":"require.js",
 		"jquery": "jquery-1.11.3",
 		"parabola": "parabola",
-		"index":"index"
+		"index":"index",
+		
 	},
 	//设置模块之间的依赖关系
 	shim: {
@@ -22,5 +24,6 @@ require.config({
 })
 require(['index'], function(index ){
 	index.main();
+	
 	
 })

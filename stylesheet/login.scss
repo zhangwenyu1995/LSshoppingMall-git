@@ -1,0 +1,144 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul,li,ol{
+  list-style:none
+}
+a{
+    text-decoration:none;
+}
+i{
+	font-style: normal;
+}
+//身体
+.hidden2>section>article{
+	width:380px;
+	height:442px;
+	background:white;
+	float:right;
+	margin-top:14px;
+	
+	padding:0 25px;
+	position:relative;
+}
+.hidden2 section>article>ul{
+	width:380px;
+	height:30px;
+	line-height:29px;
+	
+	margin-top:20px;
+	font-size:17px;
+	
+}
+.hidden2 section>article>ul>li:nth-child(1){
+	float:left;
+}
+.hidden2 section>article>ul>li:nth-child(2){
+	float:right;
+	font-size:15px;
+}
+.hidden2 section>article>ul>li:nth-child(2)>a{
+	color:#23a9e8;
+}
+.hidden2 section>article>#inform_box{
+	width:380px;
+	height:28px;
+	//background:lightblue;
+	display:block;
+	color:red;
+	font-size:12px;
+}
+.hidden2 section>article>p{
+	width:378px;
+	height:45px;
+	
+	margin-bottom:15px;
+	border:1px solid #9d9d9d;
+	float:left;
+}
+.hidden2 section>article>p>input{
+	width:335px;
+	height:45px;
+	outline:none;
+	border:none;
+	float:right;
+
+}
+.hidden2 section>article>p>img{
+	width:43px;
+	height:45px;
+	float:left;
+}
+.hidden2 section>article>i{
+	width:380px;
+	height:18px;
+	display:block;
+	
+	float:left;
+	font-size:11px;
+	line-height:18px;
+	margin-bottom:12px;
+}
+.hidden2 section>article>i>input{
+	float:left;
+	margin-top:2px;
+}
+.hidden2 section>article>i>em{
+	font-style: normal;
+	float:left;
+}
+.hidden2 section>article>i>a{
+	float:right;
+	color:#23a9e8;
+}
+.hidden2 section>article>input{
+	width:380px;
+	height:43px;
+	background:#009de6;
+	color:white;
+	font-size:17px;
+	outline:none;
+	border:none;
+	float:left;
+}
+.hidden2 section>article>input:hover{
+	opacity:0.8;
+}
+.hidden2 section>article>div{
+	width:380px;
+	height:22px;
+	
+	float:left;
+	margin-top:65px;
+	line-height:22px;
+	text-align:center;
+	color:#9d9d9d;
+}
+.hidden2 section>article>div>p>a{
+	color:#23a9e8;
+}
+.hidden2 section>article>h1{
+	width:318px;
+	height:20px;
+	
+	float:left;
+	margin-left:31px;
+	border-bottom:1px solid #9696b0;
+}
+.hidden2 section>article>.span{
+	width:90px;
+	height:20px;
+	background:white;
+	display:block;
+	
+	font-size:11px;
+	line-height:20px;
+	text-align:center;
+	position:absolute;
+	left:168px;
+	top:370px;
+}
+.hidden2 section>article>.span>a{
+	color:#9696b0;
+}
